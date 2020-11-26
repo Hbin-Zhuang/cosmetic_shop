@@ -1,0 +1,16 @@
+* { margin: 0; padding: 0; }
+html { height: 100%; }
+body { height: 100%; background: #00ffff 50% 50% no-repeat; background-size: cover;}
+.dw { position: absolute; left: 50%; top: 50%; width: 430px; height: 440px; margin: -300px 0 0 -215px; border: 1px solid #FFFFFF; border-radius: 15px; overflow: hidden; background-color: white;}
+.wel{ width: 192px; height:20px; margin: 30px 20px 55px 124px; }
+form{float:center;text-align:center;}
+.form-item { position: relative; width: 312px; margin: 0 auto; padding-bottom: 30px;}
+.form-item input { width: 250px; height: 40px; padding-left: 60px; border: 1px solid #000; border-radius: 25px; font-size: 16px; color: #000; background-color: ; outline: none;}
+#button { width: 312px; height: 45px; border: 0; border-radius: 25px; padding-right: 60px;padding-bottom: 5px;font-size: 18px; color: white; outline: none; cursor: pointer; background-color: skyblue;}
+#buttn:active{background-color: deeppink;}
+.tip { display: none; position: absolute; left: 20px; top: 52px; font-size: 14px; color: #f50; }
+.reg-bar { width: 360px; margin: 20px auto 0; font-size: 14px; overflow: hidden;}
+.reg-bar a { color: red; text-decoration: none; }
+.reg-bar a:hover { text-decoration: underline; }
+.reg-bar .reg { float: left; }
+.reg-bar .forget { float: right; }
