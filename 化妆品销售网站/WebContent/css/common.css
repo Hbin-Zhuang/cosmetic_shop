@@ -1,0 +1,399 @@
+/* 引入字体样式 */
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?tomleg') format('truetype'), url('../fonts/icomoon.woff?tomleg') format('woff'), url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+
+/* 快捷导航shortcut开始 */
+
+.shortcut {
+    height: 24px;
+    padding-top: 2px;
+    background-color: #f1f1f1;
+}
+
+
+/* 版心 */
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* 公共属性，给需要用的的类引用 */
+
+.style_red {
+    color: #c81623;
+}
+
+
+/* 左li部分 */
+
+.fl ul li {
+    float: left;
+}
+
+
+/* 右li部分 */
+
+.fr ul li {
+    float: right;
+}
+
+.fr .arrow_icon::after {
+    padding: 0 8px;
+    font-family: 'icomoon';
+    content: '\e91e';
+}
+
+.fr .selected {
+    padding: 0 10px;
+}
+
+.fr ul li:nth-child(9),
+.fr ul li:nth-child(11),
+.fr ul li:last-child {
+    padding-left: 10px;
+}
+
+
+/* shortcut部分结束 */
+
+
+/* header部分开始 */
+
+.header {
+    height: 108px;
+}
+
+
+/* header里左边的logo部分 */
+
+.logo {
+    float: left;
+    width: 171px;
+    height: 108px;
+}
+
+.logo h1 {
+    width: 100%;
+    height: 100%;
+}
+
+.logo h1 a p {
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.logo h1 a img {
+    width: 171px;
+    height: 61px;
+    margin: 24px 0 23px;
+}
+
+
+/* header里右边的search部分 */
+
+.search {
+    float: left;
+    width: 539px;
+    background-color: #b1191a;
+    height: 36px;
+    margin: 24px 111px 0 172px;
+}
+
+.search input {
+    width: 456px;
+    height: 36px;
+    outline: none;
+    padding: 3px 10px;
+    font-size: 14px;
+    color: #666;
+    border: 2px solid #b1191a;
+}
+
+.search button {
+    float: right;
+    width: 82px;
+    height: 36px;
+    border: 0;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    background-color: #b1191a;
+}
+
+.search .hotwords ul {
+    padding: 6px 0 0 10px;
+}
+
+.search .hotwords ul li {
+    float: left;
+    padding: 0 12px;
+}
+
+.search .hotwords ul .first {
+    padding-left: 0;
+}
+
+
+/* header里右边的shopcar部分 */
+
+.shopcar {
+    position: relative;
+    float: left;
+    width: 140px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 24px;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+}
+
+.shopcar p::before {
+    position: absolute;
+    top: 0;
+    left: 18px;
+    font-family: 'icomoon';
+    content: '\e93a';
+    font-size: 12px;
+    color: #dc6161;
+}
+
+.shopcar p::after {
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-family: 'icomoon';
+    content: '\e920';
+    font-size: 12px;
+    color: #666;
+}
+
+.shopcar .count {
+    position: absolute;
+    top: -5px;
+    left: 105px;
+    height: 14px;
+    padding: 0 5px;
+    line-height: 14px;
+    text-align: center;
+    font-size: 12px;
+    color: #fefefe;
+    border-radius: 8px 8px 7px 0;
+    background-color: #e60012;
+}
+
+
+/* header部分结束 */
+
+
+/* nav部分开始 */
+
+.nav {
+    height: 47px;
+}
+
+
+/* dropdown部分 */
+
+.nav .dropdown {
+    float: left;
+    width: 210px;
+    height: 47px;
+}
+
+.nav .dropdown .dt {
+    line-height: 47px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #b1191a;
+}
+
+.nav .dropdown .dd {
+    width: 210px;
+    height: 465px;
+}
+
+.nav .dropdown .dd ul {
+    background-color: #c81623;
+}
+
+.nav .dropdown .dd ul li {
+    position: relative;
+    height: 31px;
+    padding-left: 10px;
+    line-height: 31px;
+    margin-left: 2px;
+}
+
+.nav .dropdown .dd ul li::after {
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    font: 14px 'icomoon';
+    color: #fff;
+    content: '\e920';
+}
+
+.nav .dropdown .dd ul li a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.nav .dropdown .dd ul li:hover {
+    padding-left: 20px;
+    transition: all 0.5s;
+    background-color: #fff;
+}
+
+
+/* 鼠标经过a变颜色 */
+
+.nav .dropdown .dd ul li:hover a {
+    color: #c81623;
+}
+
+
+/* navitem部分 */
+
+.nav .navitem ul li {
+    float: left;
+    height: 47px;
+    line-height: 47px;
+}
+
+.nav .navitem ul li:nth-child(n) {
+    padding: 0 22px;
+}
+
+.nav .navitem ul li a {
+    font-size: 16px;
+    color: #333;
+}
+
+.nav .navitem ul li a:hover {
+    color: #c81623;
+}
+
+
+/* nav部分结束 */
+
+
+/* footer部分开始 */
+
+.footer {
+    height: 296px;
+    background-color: #f5f5f5;
+}
+
+
+/* mod_service部分 */
+
+.footer .mod_service {
+    width: 1140px;
+    height: 108px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.footer .mod_service ul {
+    padding-top: 28px;
+    padding-left: 35px;
+}
+
+.footer .mod_service ul li {
+    width: 220px;
+    height: 60px;
+    float: left;
+}
+
+.footer .mod_service ul li h5 {
+    float: left;
+    width: 51px;
+    height: 51px;
+    background: url(../images/icons.png) no-repeat;
+}
+
+.footer .mod_service ul li:nth-child(1) h5 {
+    background-position: -252px -2px;
+}
+
+.footer .mod_service ul li:nth-child(2) h5 {
+    background-position: -254px -54px;
+}
+
+.footer .mod_service ul li:nth-child(3) h5 {
+    background-position: -255px -106px;
+}
+
+.footer .mod_service ul li:nth-child(4) h5 {
+    background-position: -256px -156px;
+}
+
+.footer .mod_service ul li:nth-child(5) h5 {
+    background-position: -257px -209px;
+}
+
+.footer .mod_service ul li h4 {
+    font-size: 14px;
+    color: #333;
+}
+
+.footer .mod_service ul li p {
+    font-size: 12px;
+    color: #666;
+}
+
+
+/* mod_help部分 */
+
+.mod_help {
+    height: 188px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.mod_help dl {
+    float: left;
+    padding: 20px 50px 0 50px;
+}
+
+.mod_help dl:last-child {
+    text-align: center;
+}
+
+.mod_help dl:last-child dd {
+    padding-top: 2px;
+}
+
+.mod_help dl dt {
+    padding-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+.mod_help dl dd {
+    padding-bottom: 2px;
+    font-size: 12px;
+    color: #666;
+}
+
+.mod_help dl img {
+    width: 80px;
+    height: 80px;
+}
+
+
+/* footer部分结束 */
+
+
+/* 公共样式文件common.css结束 */

@@ -1,0 +1,141 @@
+body {
+	background-color: #fff;
+}
+.header {
+	height: 82px;
+	width: 1200px;
+	margin: 0 auto;
+}
+input {
+	outline: none;
+}
+.logo {
+	margin-top: 15px;
+}
+.login-main {
+	height: 470px;
+	background-color: #7F00FF;
+}
+.login-main .w {
+	position: relative;
+	height: 470px;
+	background: url(../img/loginbg.png) no-repeat ;
+}
+.loginfrom {
+	position: absolute;
+	left: 700px;
+	top: 60px;
+	width: 378px;
+	height: 340px;
+	background-color: #fff;
+	padding: 20px 38px 0 38px;
+	margin-top: 35px;
+}
+.a-from {
+	height: 20px;
+}
+.from1 {
+	font-size: 18px;
+	color: #656565;
+	padding-right: 63px;
+}
+.spa {
+	text-align: center;
+	font-size: 18px;
+	color: #ccc;
+}
+.from2 {
+	font-size: 18px;
+	color: #C71523;
+	padding-left: 76px;
+}
+.anno {
+	width: 295px;
+	height: 24px;
+	padding-left: 5px;
+	line-height: 24px;
+	border: 1px solid #F6EFCE;
+	margin: 20px 0 10px;
+	font-size: 12px;
+	color: #656565;
+	background-color: #FFFDED;
+}
+.loginfrom input {
+	width: 295px;
+	height: 34px;
+	border: 1px solid #CECDCD;
+	padding-left: 40px;
+	margin-bottom: 18px;
+}
+.logininput {
+	position: relative;
+}
+.logininput i {
+	position: absolute;
+	width: 37px;
+	height: 34px;
+	line-height: 34px;
+	background-color: #CECDCD;
+	top: 0;
+	left: 0;
+	font-size: 18px;
+	color: #fff;
+	font-family: 'icomoon';
+	text-align: center;
+}
+.logininput .useri {
+	top: 0;
+	left: 0;
+}
+.logininput .passwordi {
+	top: 52px;
+	left: 0;
+}
+.check {
+	height: 14px;
+	line-height: 14px;
+	font-size: 12px;
+}
+.check input {
+	float: left;
+	width: 14px;
+	height: 14px;
+}
+.check span {
+	float: left;
+	color: #CECDCD;
+}
+.check a {
+	float: right;
+	color: #CECDCD;
+}
+.check a:hover {
+	color: red;
+}
+.loginbtn {
+	display: block;
+	width: 295px;
+	height: 42px;
+	background-color: #C71523;
+	color: #fff;
+	text-align: center;
+	line-height: 42px;
+	font-size: 16px;
+	margin: 20px 0 25px 0;
+}
+.link span {
+	float: right;
+	font-size: 14px;
+	color: #1373AF;
+}
+.footer {
+	height: 120px;
+	text-align: center;
+}
+.links {
+	margin-top: 20px;
+	height: 30px;
+}
+.copyright {
+	line-height: 20px;
+}

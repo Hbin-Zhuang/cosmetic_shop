@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="69aab044-1462-4f5a-af0c-5baa8df6f5f1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1dc2vE66EGOXAc2wKp1a6APwwHu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/yq" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69aab044-1462-4f5a-af0c-5baa8df6f5f1" name="Default Changelist" comment="" />
+      <created>1592710289106</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592710289106</updated>
+      <workItem from="1592710292335" duration="1559000" />
+      <workItem from="1592905915385" duration="56000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="686" y="209" key="FileChooserDialogImpl" timestamp="1592905978467">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="686" y="209" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1592905978467" />
+    <state x="0" y="0" width="960" height="1032" key="new project wizard" timestamp="1592712729483">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="0" y="0" width="960" height="1032" key="new project wizard/0.0.1920.1032@0.0.1920.1032" timestamp="1592712729483" />
+  </component>
+</project>
